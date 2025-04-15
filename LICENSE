@@ -1,0 +1,109 @@
+# Donzo Educational and Research Open Source License
+
+## Version 1.0 | Effective Date: April 15, 2025
+
+### Preamble
+
+This license is designed to support academic research, educational development, and responsible innovation in financial technology while maintaining clear boundaries for use and distribution.
+
+## 1. Definitions
+
+- **"Software"**: The Donzo application, including source code, documentation, and associated materials.
+- **"Licensor"**: HeySalad ®, the original creators of the Software.
+- **"Licensed User"**: An individual or institution granted rights under this license.
+- **"Commercial Use"**: Any activity intended to generate monetary profit.
+
+## 2. Grant of License
+
+Subject to the terms and conditions outlined herein, the Licensor grants a worldwide, royalty-free, non-exclusive license to:
+
+a) Use the Software for non-commercial educational and research purposes
+b) Modify and create derivative works for academic and research objectives
+c) Distribute the Software in source or binary form, with restrictions
+
+## 3. Restrictions
+
+Licensed Users SHALL NOT:
+
+a) Use the Software for any commercial purpose
+b) Sell or commercially exploit the Software
+c) Remove or alter original copyright notices
+d) Misrepresent the origin of the Software
+e) Use the Software in any manner that could potentially harm individuals or financial systems
+
+## 4. Academic and Research Use
+
+### 4.1 Permitted Use
+- Academic institutions
+- Research organizations
+- Individual researchers
+- Students under institutional supervision
+
+### 4.2 Usage Guidelines
+- Provide attribution to HeySalad ®
+- Document research methodologies
+- Share research findings with the original creators
+- Maintain transparency in implementation
+
+## 5. Redistribution
+
+When redistributing the Software or derivatives:
+- Include this license
+- Preserve all copyright and attribution notices
+- Clearly indicate any modifications
+- Distribute under identical license terms
+
+## 6. Disclaimers and Limitations
+
+### 6.1 No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+### 6.2 Liability Limitation
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+## 7. Termination
+
+This license is effective until terminated. The Licensor may terminate the license if any terms are violated. Upon termination, you must destroy all copies of the Software.
+
+## 8. Special Conditions
+
+### 8.1 Financial Technology Considerations
+- The Software is strictly for educational purposes
+- Users must comply with all relevant financial regulations
+- No real financial transactions should be processed
+
+### 8.2 Data Privacy
+- Implement robust data protection measures
+- Do not use real personal or financial information
+- Anonymize all data in research and development
+
+## 9. Contributions
+
+Contributions are welcome under the following conditions:
+- Align with the educational and research mission
+- Maintain high ethical standards
+- Provide clear documentation
+- Respect data privacy and security principles
+
+## 10. Governing Law
+
+This license shall be governed by the laws of the United Kingdom, with jurisdiction in London.
+
+## 11. Acknowledgments
+
+By using this Software, you acknowledge that:
+- This is an independent research project
+- The Software is not endorsed by any financial institution
+- You understand and accept all limitations and responsibilities
+
+## 12. Contact
+
+For questions about this license or the Software:
+- Email: peter@heysalad.io
+- Organization: HeySalad ®
+- Website: https://heysalad.io
+
+---
+
+© 2025 HeySalad ®. All Rights Reserved.
+Donzo Educational and Research Open Source License
