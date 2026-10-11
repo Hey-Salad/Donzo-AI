@@ -1,10 +1,44 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "donzo";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-primary: #112231;
+  --color-secondary: #016B83;
+  --color-accent: #FF4F40;
+  --color-neutral: #F2F8F3;
+  --color-base-100: #ffffff;
+}
 
-/* Global styles */
-body {
-  @apply bg-gray-50 text-gray-900;
+@theme {
+  --color-donzo-primary: #112231;
+  --color-donzo-secondary: #016B83;
+  --color-donzo-accent: #FF4F40;
+  --color-donzo-light: #F2F8F3;
+  --color-donzo-bright: #C3FF34;
+}
+
+/* Preserve Tailwind v3 defaults that v4 changed. */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-gray-400);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
 }
 
 /* Custom utility classes */

@@ -11,27 +11,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@azure/identity": "^4.8.0",
+    "@azure/identity": "^4.13.3",
     "@azure/openai": "^2.0.0",
     "@heroicons/react": "^2.2.0",
-    "axios": "^1.8.4",
-    "firebase": "^11.6.0",
+    "axios": "^1.20.0",
+    "firebase": "^11.10.0",
     "lucide-react": "^0.488.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.30.0",
+    "react-router-dom": "^7.18.4",
     "zustand": "^4.5.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.3.0",
-    "autoprefixer": "^10.4.19",
-    "daisyui": "^4.7.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "daisyui": "^5.7.47",
     "eslint": "^8.57.0",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.4.5",
-    "vite": "^5.2.0"
+    "vite": "^6.4.4"
   }
 }
