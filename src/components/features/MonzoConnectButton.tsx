@@ -27,7 +27,7 @@ const MonzoConnectButton: React.FC<MonzoConnectButtonProps> = ({ className }) =>
   return (
     <button
       onClick={handleConnect}
-      className={`flex items-center justify-center px-4 py-2 bg-donzo-primary text-white rounded-md hover:bg-donzo-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-donzo-primary ${className || ''}`}
+      className={`flex items-center justify-center px-4 py-2 bg-donzo-primary text-white rounded-md hover:bg-donzo-secondary focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-donzo-primary ${className || ''}`}
     >
       <CreditCard className="w-5 h-5 mr-2" />
       Connect Monzo Account

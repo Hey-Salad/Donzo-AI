@@ -221,7 +221,7 @@ const MonzoCallback: React.FC = () => {
                     </span>
                   </div>
                 </div>
-                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-blue-200">
+                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded-sm bg-blue-200">
                   <div style={{ width: `${(approvalTime / 60) * 100}%` }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-donzo-primary transition-all duration-500"></div>
                 </div>
               </div>
@@ -234,7 +234,7 @@ const MonzoCallback: React.FC = () => {
             
             <button 
               onClick={handleContinue}
-              className="w-full bg-donzo-primary text-white py-2 px-4 rounded hover:bg-donzo-secondary transition duration-200"
+              className="w-full bg-donzo-primary text-white py-2 px-4 rounded-sm hover:bg-donzo-secondary transition duration-200"
             >
               I've Approved in Monzo App
             </button>
@@ -272,7 +272,7 @@ const MonzoCallback: React.FC = () => {
                     </span>
                   </div>
                 </div>
-                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-blue-200">
+                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded-sm bg-blue-200">
                   <div style={{ width: `${(waitTime / 10) * 100}%` }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-donzo-primary transition-all duration-500"></div>
                 </div>
               </div>
@@ -284,7 +284,7 @@ const MonzoCallback: React.FC = () => {
             
             <button 
               onClick={handleContinue}
-              className="w-full bg-donzo-primary text-white py-2 px-4 rounded hover:bg-donzo-secondary transition duration-200"
+              className="w-full bg-donzo-primary text-white py-2 px-4 rounded-sm hover:bg-donzo-secondary transition duration-200"
             >
               Continue Now
             </button>

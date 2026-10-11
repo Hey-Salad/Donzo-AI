@@ -37,7 +37,7 @@ const LandingPage: React.FC = () => {
               </Link>
               <button 
                 onClick={handleGetStarted}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm"
               >
                 Get Started
               </button>
@@ -47,7 +47,7 @@ const LandingPage: React.FC = () => {
             <div className="flex md:hidden">
               <button
                 type="button"
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-inset focus:ring-blue-500"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
                 onClick={toggleMenu}
@@ -109,22 +109,22 @@ const LandingPage: React.FC = () => {
             <div className="mt-10 lg:mt-0 lg:w-1/2">
               <div className="bg-blue-100 rounded-lg p-6 shadow-lg">
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
                     <CheckCircle className="h-8 w-8 text-green-500 mb-2" />
                     <h3 className="font-bold">Task Tracking</h3>
                     <p className="text-gray-600 text-sm">Manage your tasks efficiently</p>
                   </div>
-                  <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
                     <CreditCard className="h-8 w-8 text-blue-500 mb-2" />
                     <h3 className="font-bold">Monzo Integration</h3>
                     <p className="text-gray-600 text-sm">Link with your Monzo account</p>
                   </div>
-                  <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
                     <Brain className="h-8 w-8 text-purple-500 mb-2" />
                     <h3 className="font-bold">AI Powered</h3>
                     <p className="text-gray-600 text-sm">Smart insights and suggestions</p>
                   </div>
-                  <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
                     <Mic className="h-8 w-8 text-red-500 mb-2" />
                     <h3 className="font-bold">Voice Control</h3>
                     <p className="text-gray-600 text-sm">Speak to manage your tasks</p>

@@ -114,7 +114,7 @@ const Dashboard: React.FC = () => {
       {/* Status message */}
       {message && (
         <div className="fixed top-16 inset-x-0 flex justify-center z-50">
-          <div className="bg-blue-100 border-l-4 border-donzo-primary text-donzo-primary p-4 rounded shadow-md">
+          <div className="bg-blue-100 border-l-4 border-donzo-primary text-donzo-primary p-4 rounded-sm shadow-md">
             {message}
           </div>
         </div>
